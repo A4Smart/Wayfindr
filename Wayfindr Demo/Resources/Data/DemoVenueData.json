@@ -1,0 +1,52 @@
+{
+    "venue": {
+        "name": "Example venue",
+        "platforms": [{
+                      "name": "Beacon giallo",
+                      "entrance_beacon_major": 10000,
+                      "entrance_beacon_minor": 200,
+                      "exit_beacon_major": 10000,
+                      "exit_beacon_minor": 200,
+                      "destinations": ["Museo Correr"]
+                      },
+                      {
+                      "name": "3",
+                      "entrance_beacon_major": 5000,
+                      "entrance_beacon_minor": 1515,
+                      "exit_beacon_major": 5000,
+                      "exit_beacon_minor": 1515,
+                      "destinations": ["Sala riunioni"]
+                      },
+                      {
+                      "name": "4",
+                      "entrance_beacon_major": 5000,
+                      "entrance_beacon_minor": 1414,
+                      "exit_beacon_major": 5000,
+                      "exit_beacon_minor": 1414,
+                      "destinations": ["Uscita"]
+                      }],
+        "exits": [{
+                  "name": "1",
+                  "entrance_beacon_major": 10000,
+                  "entrance_beacon_minor": 200,
+                  "exit_beacon_major": 10000,
+                  "exit_beacon_minor": 200,
+                  "mode": "Bevilacqua La Masa"
+                  },
+                  {
+                  "name": "2",
+                  "entrance_beacon_major": 10000,
+                  "entrance_beacon_minor": 300,
+                  "exit_beacon_major": 10000,
+                  "exit_beacon_minor": 300,
+                  "mode": "Bar Todaro"
+                  }],
+        "station_facilities": [{
+                               "name": "Beacon giallo",
+                               "entrance_beacon_major": 5000,
+                               "entrance_beacon_minor": 2,
+                               "exit_beacon_major": 5000,
+                               "exit_beacon_minor": 2
+                               }]
+    }
+}

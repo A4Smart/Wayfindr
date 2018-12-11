@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+    http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+    
+    <!-- NODE KEYS -->
+    
+    <!-- Required -->
+    <key id="major" for="node" attr.name="major" attr.type="int" />
+    <key id="minor" for="node" attr.name="minor" attr.type="int" />
+    <key id="name" for="node" attr.name="name" attr.type="string" />
+    <!-- Optional -->
+    <key id="waypoint_type" for="node" attr.name="waypoint_type" attr.type="string" />
+    <!-- <key id="accuracy" for="node" attr.name="accuracy" attr.type="double">
+     <default>5.0</default>
+     </key> -->
+    
+    <!-- EDGE KEYS -->
+    
+    <!-- Required -->
+    <key id="travel_time" for="edge" attr.name="travel_time" attr.type="double" />
+    <key id="language" for="edge" attr.name="language" attr.type="string" />
+    <!-- aggiunti Giacomo -->
+    <key id="compass" for="edge" attr.name="compass" attr.type="double" />
+    <key id="rssi" for="edge" attr.name="rssi" attr.type="int" />
+    <!-- Optional -->
+    <key id="beginning" for="edge" attr.name="instruction-beginning" attr.type="string" />
+    <key id="middle" for="edge" attr.name="instruction-middle" attr.type="string" />
+    <key id="ending" for="edge" attr.name="instruction-end" attr.type="string" />
+    <key id="starting_only" for="edge" attr.name="instruction-starting_only" attr.type="string" />
+    
+    
+    <!-- GRAPH -->
+    <graph id="Chatswood" edgedefault="directed">
+        
+        <!-- NODES -->
+        
+        <node id="1">
+            <data key="major">5000</data>
+            <data key="minor">1</data>
+            <data key="name">Viola</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="2">
+            <data key="major">5000</data>
+            <data key="minor">2</data>
+            <data key="name">Ventitre"</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="3">
+            <data key="major">5000</data>
+            <data key="minor">3</data>
+            <data key="name">Tre"</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="4">
+            <data key="major">5000</data>
+            <data key="minor">4</data>
+            <data key="name">Quattro</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="5">
+            <data key="major">5000</data>
+            <data key="minor">5</data>
+            <data key="name">Cinque</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="6">
+            <data key="major">5000</data>
+            <data key="minor">6</data>
+            <data key="name">Sei</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="7">
+            <data key="major">5000</data>
+            <data key="minor">7</data>
+            <data key="name">Sette</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="1414">
+            <data key="major">5000</data>
+            <data key="minor">1414</data>
+            <data key="name">Partenza</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="1515">
+            <data key="major">5000</data>
+            <data key="minor">1515</data>
+            <data key="name">Arrivo</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <!-- PIAZZA SAN MARCO -->
+        <!--mancano beacon 6, 7, 10, 24-->
+        
+        <node id="101">
+            <data key="major">10000</data>
+            <data key="minor">1</data>
+            <data key="name">Todaro1</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="102">
+            <data key="major">10000</data>
+            <data key="minor">2</data>
+            <data key="name">Todaro2</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="103">
+            <data key="major">10000</data>
+            <data key="minor">3</data>
+            <data key="name">NODE 3</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="104">
+            <data key="major">10000</data>
+            <data key="minor">4</data>
+            <data key="name">NODE 4</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="105">
+            <data key="major">10000</data>
+            <data key="minor">5</data>
+            <data key="name">NODE 5</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="106">
+            <data key="major">10000</data>
+            <data key="minor">6</data>
+            <data key="name">NODE 6</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="107">
+            <data key="major">10000</data>
+            <data key="minor">7</data>
+            <data key="name">NODE 7</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="108">
+            <data key="major">10000</data>
+            <data key="minor">8</data>
+            <data key="name">NODE 8</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="109">
+            <data key="major">10000</data>
+            <data key="minor">9</data>
+            <data key="name">NODE 9</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="110">
+            <data key="major">10000</data>
+            <data key="minor">10</data>
+            <data key="name">NODE 10</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="111">
+            <data key="major">10000</data>
+            <data key="minor">11</data>
+            <data key="name">NODE 11</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="112">
+            <data key="major">10000</data>
+            <data key="minor">12</data>
+            <data key="name">NODE 12</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="113">
+            <data key="major">10000</data>
+            <data key="minor">13</data>
+            <data key="name">NODE 13</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="114">
+            <data key="major">10000</data>
+            <data key="minor">14</data>
+            <data key="name">NODE 14</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="115">
+            <data key="major">10000</data>
+            <data key="minor">15</data>
+            <data key="name">NODE 15</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="116">
+            <data key="major">10000</data>
+            <data key="minor">16</data>
+            <data key="name">NODE 16</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="117">
+            <data key="major">10000</data>
+            <data key="minor">17</data>
+            <data key="name">NODE 17</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="118">
+            <data key="major">10000</data>
+            <data key="minor">18</data>
+            <data key="name">NODE 18</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="119">
+            <data key="major">10000</data>
+            <data key="minor">19</data>
+            <data key="name">NODE 19</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="120">
+            <data key="major">10000</data>
+            <data key="minor">20</data>
+            <data key="name">NODE 20</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="121">
+            <data key="major">10000</data>
+            <data key="minor">21</data>
+            <data key="name">NODE 21</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="122">
+            <data key="major">10000</data>
+            <data key="minor">22</data>
+            <data key="name">NODE 22</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="123">
+            <data key="major">10000</data>
+            <data key="minor">23</data>
+            <data key="name">NODE 23</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="124">
+            <data key="major">10000</data>
+            <data key="minor">24</data>
+            <data key="name">NODE 24</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="125">
+            <data key="major">10000</data>
+            <data key="minor">25</data>
+            <data key="name">NODE 25</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="126">
+            <data key="major">10000</data>
+            <data key="minor">26</data>
+            <data key="name">NODE 26</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="127">
+            <data key="major">10000</data>
+            <data key="minor">27</data>
+            <data key="name">NODE 27</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="128">
+            <data key="major">10000</data>
+            <data key="minor">28</data>
+            <data key="name">NODE 28</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="888">
+            <data key="major">10000</data>
+            <data key="minor">200</data>
+            <data key="name">CORRER</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <node id="999">
+            <data key="major">10000</data>
+            <data key="minor">300</data>
+            <data key="name">TODARO</data>
+            <data key="waypoint_type">Platform,Stairs</data>
+        </node>
+        
+        <!-- EDGES -->
+        <!-- SAN MARCO -->
+        
+        <!-- Da Museo Correr a Todaro -->
+        <edge id="128to126" source="128" target="126">
+            <data key="travel_time">2.0</data>
+            <data key="compass">155.0</data>
+            <data key="rssi">-75</data>
+            <data key="beginning">Procedi dritto per circa 10 passi.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <!--<edge id="127to126" source="127" target="126">
+         <data key="travel_time">2.0</data>
+         <data key="compass">155.0</data>
+         <data key="rssi">-75</data>
+         <data key="beginning">Procedi dritto per circa 10 passi.</data>
+         <data key="language">en-GB</data>
+         </edge>-->
+        
+        <edge id="126to125" source="126" target="125">
+            <data key="travel_time">2.0</data>
+            <data key="compass">65.0</data>
+            <data key="rssi">-78</data>
+            <data key="beginning">Gira a sinistra e prendi la prossima a destra.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="125to124" source="125" target="124">
+            <data key="travel_time">2.0</data>
+            <data key="compass">155.0</data>
+            <data key="rssi">-80</data>
+            <data key="beginning">Gira a destra e prosegui dritto.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="124to123" source="124" target="123">
+            <data key="travel_time">2.0</data>
+            <data key="compass">155.0</data>
+            <data key="rssi">-78</data>
+            <data key="beginning">Procedi dritto mantenendo la destra. Lasciati le due colonne alla tua destra.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="123to121" source="123" target="121">
+            <data key="travel_time">2.0</data>
+            <data key="compass">155.0</data>
+            <data key="rssi">-81</data>
+            <data key="beginning">Svolta a sinistra e continua dritto. </data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="121to120" source="121" target="120">
+            <data key="travel_time">2.0</data>
+            <data key="compass">65.0</data>
+            <data key="rssi">-79</data>
+            <data key="beginning">Procedi dritto.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="120to119" source="120" target="119">
+            <data key="travel_time">2.0</data>
+            <data key="compass">65.0</data>
+            <data key="rssi">-78</data>
+            <data key="beginning">Continua dritto.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="119to118" source="119" target="118">
+            <data key="travel_time">2.0</data>
+            <data key="compass">65.0</data>
+            <data key="rssi">-75</data>
+            <data key="beginning">Continua diritto e mantieni gli accessi ai negozi alla tua destra.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="118to116" source="118" target="116">
+            <data key="travel_time">2.0</data>
+            <data key="compass">65.0</data>
+            <data key="rssi">-80</data>
+            <data key="beginning">Continua dritto.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="116to115" source="116" target="115">
+            <data key="travel_time">2.0</data>
+            <data key="compass">65.0</data>
+            <data key="rssi">-80</data>
+            <data key="beginning">Continua diritto. Sulla destra trovi l'entrata del Caffè Florian. Mantieni le sedie e i tavolini del bar alla tua destra per dieci passi.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="115to114" source="115" target="114">
+            <data key="travel_time">2.0</data>
+            <data key="compass">65.0</data>
+            <data key="rssi">-75</data>
+            <data key="beginning">Continua diritto. Mantieni le sedie e i tavolini del bar alla tua destra per venti passi.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="114to113" source="114" target="113">
+            <data key="travel_time">2.0</data>
+            <data key="compass">65.0</data>
+            <data key="rssi">-77</data>
+            <data key="beginning">Continua dritto tenendo la destra.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="113to111" source="113" target="111">
+            <data key="travel_time">2.0</data>
+            <data key="compass">65.0</data>
+            <data key="rssi">-75</data>
+            <data key="beginning">Continua dritto.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="111to110" source="111" target="110">
+            <data key="travel_time">2.0</data>
+            <data key="compass">65.0</data>
+            <data key="rssi">-76</data>
+            <data key="beginning">Continua dritto tenendo la destra.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="110to109" source="110" target="109">
+            <data key="travel_time">2.0</data>
+            <data key="compass">65.0</data>
+            <data key="rssi">-75</data>
+            <data key="beginning">Alla prossima svolta a destra.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="109to108" source="109" target="108">
+            <data key="travel_time">2.0</data>
+            <data key="compass">65.0</data>
+            <data key="rssi">-75</data>
+            <data key="beginning">Dopo la svolta a sinistra, procedi dritto.</data>
+            <data key="language">en-GB</data>
+        </edge><!-- era Gira alla prossima a destra -->
+        
+        <edge id="108to105" source="108" target="105">
+            <data key="travel_time">15.0</data>
+            <data key="compass">150.0</data>
+            <data key="rssi">-80</data>
+            <data key="beginning">Continua dritto.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="105to104" source="105" target="104">
+            <data key="travel_time">2.0</data>
+            <data key="compass">150.0</data>
+            <data key="rssi">-80</data>
+            <data key="beginning">Continua diritto e mantieni la destra. Tieni alla tua destra il bancone della gelateria, poi ci sono delle sedie e dei tavolini del bar che devi mantenere alla tua sinistra per dodici passi.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="104to103" source="104" target="103">
+            <data key="travel_time">2.0</data>
+            <data key="compass">150.0</data>
+            <data key="rssi">-79</data>
+            <data key="beginning">Continua diritto. Alla tua destra trovi la Biblioteca Marciana.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="103to102" source="103" target="102">
+            <data key="travel_time">2.0</data>
+            <data key="compass">150.0</data>
+            <data key="rssi">-80</data>
+            <data key="beginning">Alla prossima svolta gira a destra l'entrata del Bar Tòdaro è alla tua destra</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="102to101" source="102" target="101">
+            <data key="travel_time">2.0</data>
+            <data key="compass">150.0</data>
+            <data key="rssi">-75</data>
+            <data key="beginning">L'entrata del Bar Tòdaro è alla tua destra. Sei arrivato a destinazione.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="101to999" source="101" target="999">
+            <data key="travel_time">2.0</data>
+            <data key="compass">245.0</data>
+            <data key="rssi">-75</data>
+            <data key="beginning">Sei arrivato a destinazione.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <!-- Da Todaro a Museo Correr -->
+        <edge id="101to102" source="101" target="102">
+            <data key="travel_time">2.0</data>
+            <data key="compass">60.0</data>\
+            <data key="rssi">-78</data>
+            <data key="beginning">Procedi dritto e prendi la prossima a sinistra.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="102to103" source="102" target="103">
+            <data key="travel_time">2.0</data>
+            <data key="compass">340.0</data>
+            <data key="rssi">-76</data>
+            <data key="beginning">Dopo la svolta a sinistra, procedi dritto.</data>
+            <!--<data key="beginning">Svolta a sinistra e procedi dritto.</data>-->
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="103to104" source="103" target="104">
+            <data key="travel_time">2.0</data>
+            <data key="compass">340.0</data>
+            <data key="rssi">-78</data>
+            <data key="beginning">Continua diritto. Alla tua sinistra trovi la Biblioteca Marciana. Dopo l'entrata alla tua sinistra, ci sono delle sedie e dei tavolini del bar che devi mantenere alla tua sinistra per dodici passi.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="104to105" source="104" target="105">
+            <data key="travel_time">2.0</data>
+            <data key="compass">340.0</data>
+            <data key="rssi">-75</data>
+            <data key="beginning">Continua diritto e mantieni la sinistra. Tieni alla tua sinistra il bancone della gelateria.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="105to108" source="105" target="108">
+            <data key="travel_time">2.0</data>
+            <data key="compass">340.0</data>
+            <data key="rssi">-75</data>
+            <data key="beginning">Continua diritto.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="108to109" source="108" target="109">
+            <data key="travel_time">2.0</data>
+            <data key="compass">340.0</data>
+            <data key="rssi">-79</data>
+            <data key="beginning">Gira alla prossima a sinistra.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="109to110" source="109" target="110">
+            <data key="travel_time">2.0</data>
+            <data key="compass">250.0</data>
+            <data key="rssi">-75</data>
+            <data key="beginning">Gira a sinistra e continua diritto.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="110to111" source="110" target="111">
+            <data key="travel_time">2.0</data>
+            <data key="compass">250.0</data>
+            <data key="rssi">-75</data>
+            <data key="beginning">Continua diritto.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="111to113" source="111" target="113">
+            <data key="travel_time">2.0</data>
+            <data key="compass">250.0</data>
+            <data key="rssi">-75</data>
+            <data key="beginning">Continua dritto tenendo la sinistra.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="113to114" source="113" target="114">
+            <data key="travel_time">2.0</data>
+            <data key="compass">250.0</data>
+            <data key="rssi">-80</data>
+            <data key="beginning">Continua dritto.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="114to115" source="114" target="115">
+            <data key="travel_time">2.0</data>
+            <data key="compass">250.0</data>
+            <data key="rssi">-75</data>
+            <data key="beginning">Continua dritto tenendo la sinistra.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="115to116" source="115" target="116">
+            <data key="travel_time">2.0</data>
+            <data key="compass">250.0</data>
+            <data key="rssi">-76</data>
+            <data key="beginning">Continua diritto. Sulla sinistra trovi l'entrata del Caffè Florian. Mantieni le sedie e i tavolini del bar alla tua sinistra per venti passi.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="116to118" source="116" target="118">
+            <data key="travel_time">2.0</data>
+            <data key="compass">250.0</data>
+            <data key="rssi">-75</data>
+            <data key="beginning">Continua diritto. Mantieni le sedie e i tavolini del bar alla tua sinistra per dieci passi.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="118to119" source="118" target="119">
+            <data key="travel_time">2.0</data>
+            <data key="compass">250.0</data>
+            <data key="rssi">-76</data>
+            <data key="beginning">Continua diritto e mantieni gli accessi ai negozi alla tua sinistra.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="119to120" source="119" target="120">
+            <data key="travel_time">2.0</data>
+            <data key="compass">250.0</data>
+            <data key="rssi">-77</data>
+            <data key="beginning">Continua dritto.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="120to121" source="120" target="121">
+            <data key="travel_time">2.0</data>
+            <data key="compass">250.0</data>
+            <data key="rssi">-76</data>
+            <data key="beginning">Continua dritto.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="121to123" source="121" target="123">
+            <data key="travel_time">2.0</data>
+            <data key="compass">250.0</data>
+            <data key="rssi">-76</data>
+            <data key="beginning">Continua dritto e supera le due grosse colonne alla tua sinistra.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <edge id="123to888" source="123" target="888">
+            <data key="travel_time">2.0</data>
+            <data key="compass">250.0</data>
+            <data key="rssi">-76</data>
+            <data key="beginning">L'entrata del museo Bevilacqua La Masa è sulla sinistra.</data>
+            <data key="language">en-GB</data>
+        </edge>
+        
+        <!--<edge id="121to123" source="121" target="123">
+         <data key="travel_time">2.0</data>
+         <data key="compass">250.0</data>
+         <data key="rssi">-78</data>
+         <data key="beginning">Continua diritto e dopo le due grosse colonne alla tua sinistra, gira a destra. </data>
+         <data key="language">en-GB</data>
+         </edge>
+         
+         <edge id="123to888" source="123" target="888">
+         <data key="travel_time">2.0</data>
+         <data key="compass">340.0</data>
+         <data key="rssi">-82</data>
+         <data key="beginning">Gira a destra, procedi per otto passi mantenendo la sinistra. Lasciati le due colonne alla tua sinistra.</data>
+         <data key="language">en-GB</data>
+         </edge>
+         
+         <edge id="123to124" source="123" target="124">
+         <data key="travel_time">2.0</data>
+         <data key="compass">340.0</data>
+         <data key="rssi">-82</data>
+         <data key="beginning">Gira a destra, procedi per otto passi mantenendo la sinistra. Lasciati le due colonne alla tua sinistra.</data>
+         <data key="language">en-GB</data>
+         </edge>
+         
+         <edge id="124to125" source="124" target="125">
+         <data key="travel_time">2.0</data>
+         <data key="compass">340.0</data>
+         <data key="rssi">-75</data>
+         <data key="beginning">Continua diritto e mantieniti a sinistra.</data>
+         <data key="language">en-GB</data>
+         </edge>
+         
+         <edge id="125to126" source="125" target="126">
+         <data key="travel_time">2.0</data>
+         <data key="compass">340.0</data>
+         <data key="rssi">-</data>
+         <data key="beginning">Prendi la prossima a sinistra.</data>
+         <data key="language">en-GB</data>
+         </edge>
+         
+         <edge id="126to127" source="126" target="127">
+         <data key="travel_time">2.0</data>
+         <data key="compass">250.0</data>
+         <data key="rssi">-80</data>
+         <data key="beginning">Gira a sinistra.</data>
+         <data key="language">en-GB</data>
+         </edge>
+         
+         <edge id="127to128" source="127" target="128">
+         <data key="travel_time">2.0</data>
+         <data key="compass">250.0</data>
+         <data key="rssi">-75</data>
+         <data key="beginning">Gira a destra. L’entrata del Museo sarà a 10 passi davanti a te.</data>
+         <data key="language">en-GB</data>
+         </edge>
+         
+         <edge id="128to888" source="128" target="888">
+         <data key="travel_time">2.0</data>
+         <data key="compass">340.0</data>
+         <data key="rssi">-77</data>
+         <data key="beginning">L’entrata del museo Corrèr ha due gradini e la scalinata principale è alla tua destra. Sei arrivato a destinazione. </data>
+         <data key="language">en-GB</data>
+         </edge>-->
+        
+    </graph>
+    
+</graphml>
